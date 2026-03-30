@@ -6,7 +6,19 @@
 /*   By: lpatin <lpatin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/14 11:46:42 by lpatin            #+#    #+#             */
-/*   Updated: 2026/03/14 11:46:43 by lpatin           ###   ########.fr       */
+/*   Updated: 2026/03/17 16:39:53 by lpatin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "ClapTrap.hpp"
+
+
+int main() {
+	ClapTrap a("Bob");
+	
+	a.attack("Enemy");
+	a.takeDamage(5);
+	a.beRepaired(3);
+	
+	return 0;
+}
